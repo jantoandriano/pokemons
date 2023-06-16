@@ -4,6 +4,7 @@ import { createStitches } from '@stitches/react';
 const quicksand = Quicksand({
   weight: ['400', '500', '600', '700'],
   style: 'normal',
+  subsets: ['latin', 'latin-ext', 'vietnamese']
 });
 
 export const { styled, getCssText, css, globalCss, theme } = createStitches({
