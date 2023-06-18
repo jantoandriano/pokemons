@@ -19,30 +19,18 @@
 <br>
 <br>
 
-
 <p align="center">This is a <strong>Next.js</strong> frontend web app that consumes the Pokemon API at <a href="https://pokeapi.co/" target="_blank">https://pokeapi.co</a>. It has been built using stitches.dev, react query, zustand, and TypeScript. The app follows the atomic design pattern principles for the UI development.</p>
 
 <br>
-<div align="center">
-  <img width="80%" alt="App screenshot" src="https://user-images.githubusercontent.com/61250665/224841071-2c1d47fb-1b4c-43c6-a1bc-12e278d04389.png">
-  <img width="80%" alt="App screenshot" src="https://user-images.githubusercontent.com/61250665/224841067-63cfd0ef-0853-46fa-b48b-1746348d0124.png">
-  <img width="80%" alt="App screenshot" src="https://user-images.githubusercontent.com/61250665/224841066-2289584c-9226-4ba0-9173-188686d5aaed.png">
-  <img width="40%" alt="App screenshot" src="https://user-images.githubusercontent.com/61250665/224841073-8ccb4b4d-86ef-4a29-b4b1-ff967e5755d1.png">
-  <img width="40%" alt="App screenshot" src="https://user-images.githubusercontent.com/61250665/224841059-464ec1ef-2bd0-4274-9cb4-0bc1648a2ed2.png">
-</div>
 
 ## About
-This ***Next.js*** frontend web app is a user-friendly interface that allows users to browse and search for Pokemon data from the **Pokemon API**. Built with ***server-side rendering***, it delivers *fast and reliable performance and enhances SEO*. The app features a search bar that utilizes debounce functionality for efficient searches, and **infinite scroll** for effortless browsing of large amounts of data.
 
-This app follows the ***Atomic Design Pattern***, which breaks down the interface into smaller, reusable components. These components are built with *stitches.dev*, a CSS-in-JS library that provides high-performance styles. The app's state management is powered by ***Zustand***, a lightweight and fast state management library for React, while its code quality is improved by TypeScript, a statically typed programming language.
+This **_Next.js_** frontend web app is a user-friendly interface that allows users to browse and search for Pokemon data from the **Pokemon API**. Built with **_server-side rendering_**, it delivers _fast and reliable performance and enhances SEO_. The app features a search bar that utilizes debounce functionality for efficient searches, and **infinite scroll** for effortless browsing of large amounts of data.
+
+This app follows the **_Atomic Design Pattern_**, which breaks down the interface into smaller, reusable components. These components are built with _stitches.dev_, a CSS-in-JS library that provides high-performance styles. The app's state management is powered by **_Zustand_**, a lightweight and fast state management library for React, while its code quality is improved by TypeScript, a statically typed programming language.
 
 Overall, this app provides a seamless and intuitive experience for users to browse and search for Pokemon data. Its fast performance, responsive design, reusable components, and efficient search and browsing features make it a showcase of the power and flexibility of the Next.js framework.
 
-### File Structure
-<div align="left">
-<img width="60%" alt="File structure screenshot" src="https://user-images.githubusercontent.com/61250665/224842226-42b190ff-d535-4949-a712-622b5a1249c0.png">
-<img width="60%" alt="File structure screenshot" src="https://user-images.githubusercontent.com/61250665/224842221-33edd53b-deda-4ebe-a2dd-14c9613421a7.png">
-</div>
 
 ### Highlights
 
@@ -61,6 +49,7 @@ Overall, this app provides a seamless and intuitive experience for users to brow
 - TypeScript: A statically typed programming language that improves code quality and reduces errors
 
 ### Features:
+
 - Suggestion based search bar
 - Fast loading of cached content
 - Get information about any existing pokemon quickly
@@ -68,9 +57,7 @@ Overall, this app provides a seamless and intuitive experience for users to brow
 
 ### Live Demo
 
-![Vercel](https://vercelbadge.vercel.app/api/StarSheriff2/nextjs-pokemon-search-app)
-
-- Deployed to Vercel: [Live Demo](https://nextjs-pokemon-search-app.vercel.app)
+- Deployed to Vercel: [Live Demo](https://pokemons-pied-nine.vercel.app/)
 
 ### About the API
 
@@ -82,12 +69,14 @@ Overall, this app provides a seamless and intuitive experience for users to brow
 To get a local copy up and running, follow these simple example steps.
 
 ### Prerequisites
+
 - A browser to open the main file
 - Node.js
 - NPM
 - Yarn
 
 ### Local deploy
+
 - Clone the repository to your local machine.
 - Install dependencies by running `yarn`.
 - Run the app with `yarn dev`.
@@ -97,7 +86,9 @@ To get a local copy up and running, follow these simple example steps.
 ### Bundle project
 
 - `yarn build`
+
 ### Testing
+
 To test, run
 
 - `yarn test`
