@@ -1,5 +1,5 @@
 <div align="center">
-<h1><a href="https://nextjs-pokemon-search-app.vercel.app" target="_blank">NextJS Pokemon Search App</a></h1>
+<h1><a href="https://nextjs-pokemon-search-app.vercel.app" target="_blank">Pokemon List App</a></h1>
 </div>
 
 <div align="center">
@@ -64,6 +64,7 @@ Overall, this app provides a seamless and intuitive experience for users to brow
 - Suggestion based search bar
 - Fast loading of cached content
 - Get information about any existing pokemon quickly
+- Filter component based on their name (searching)
 
 ### Live Demo
 
@@ -104,20 +105,6 @@ To test, run
 ### Linters
 
 - `yarn lint`
-
-## Author
-👤 **Arturo Alvarez**
-- Github: [@StarSheriff2](https://github.com/StarSheriff2)
-- Twitter: [@ArturoAlvarezV](https://twitter.com/ArturoAlvarezV)
-- Linkedin: [Arturo Alvarez](https://www.linkedin.com/in/arturoalvarezv/)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-## Show your support
-
-Give a ⭐️ if you like this project!
 
 ## 📝 License
 
